@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("kampus.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#pesan {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+}
